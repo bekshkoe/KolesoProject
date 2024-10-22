@@ -1,0 +1,272 @@
+body{    /* арткы фон  */
+   background-image: url(https://expopk.ru/upload/iblock/b08/b0899f161b3253c35206f2db5cef096b.jpg)
+}
+ * {  /*марджин */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .img{  /* сурет(размери) */
+    width: 777px;
+    height: 1000px;
+    object-fit: cover;
+}
+.videoo{
+    width: 1700px;
+    height: 700px;
+}
+.h2{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
+.poi{  /*  поиск   */
+    background-color: wheat;
+    outline: none;
+    width: 100%;
+    height: 105%;
+    border-radius: 9px;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button{/* купить(кнопка) */
+    border-radius: 10px;
+}
+.home{/* главный */
+        width: 20%;
+        height: 30%;
+        transition-duration: 1000ms;
+        animation: blink 3s infinite ;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 15px;
+        font-size: 16px;
+        align-items: center;
+    }.home:hover{
+        color: #8a7070;
+}
+.photo{
+    width: 20%;
+    height: 30%;
+    transition-duration: 1000ms;
+    animation: blink 3s infinite ;
+    color: rgb(7, 7, 7);
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    align-items: center;
+}.photo:hover{
+    color: #7d7777;
+}
+img{/*  Анимация  */
+    transition-duration: 1000ms;
+    animation: blink 3s infinite ;
+    column-gap: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20px;
+}
+img:hover{
+    padding: 25px;
+}
+.jol{
+    color: rgb(227, 227, 227);
+}
+ header {  /* Бастапкы бет  */
+    width: 100%;
+    background-image: url('https://audi.kz/userdata/banners/banners_63/image_b.webp');
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+#search {
+    padding: 20px;
+    text-align: center;
+}
+
+#search input {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#search button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.card-container{/* колик карталары   */
+    color: #d6d6d6;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.card-item{/* колик дизаины */
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.car-suret-link{
+    width: 100%;
+}
+
+.car-suret{/* карта размери */
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.carddd{
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+.cardddd{
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin-top: 14px;
+    color: #000000;
+}
+.card-oil{
+    color: #000000;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 40%;
+
+}
+.card-3{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 30px;
+    margin: 0 auto;
+}
+.card-4{
+    display: flex;
+}
+.card-5{
+    display: flex;
+}
+.afisha-btnr{   /* батырма олшеми */
+    color: white;
+    background-color: rgb(81, 81, 81) ;
+    border: none;
+    padding: 15px;
+    border-radius: 100px;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 16px;
+}
+.afisha-btn-1{  /* батырма олшеми */
+    color: white;
+    background-color: rgb(81, 81, 81) ;
+    border: none;
+    padding: 15px;
+    border-radius: 100px;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 16px;
+}
+.afisha-btn{   /* батырма олшеми */
+    color: white;
+    background-color: rgb(81, 81, 81) ;
+    border: none;
+    padding: 15px;
+    border-radius: 100px;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 16px;
+}
+.afisha-btnn{   /* батырма олшеми */
+    color: white;
+    background-color: rgb(81, 81, 81) ;
+    border: none;
+    padding: 15px;
+    border-radius: 100px;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 16px;
+}
+footer {   /* астынгы болик */
+    height: 100px;
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+header {
+        display: flex;
+        flex-direction: column;
+}
+.container0{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ @keyframes circle{   /*  Анимация  */
+    0%{
+    width: 20%;
+    }
+    50%{
+    width: 30%;
+    padding: 10%;
+    }
+    100%{
+    width: 20%;
+    padding: 10%;
+    }
+}

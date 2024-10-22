@@ -1,0 +1,131 @@
+body{
+    background-image: url(https://expopk.ru/upload/iblock/b08/b0899f161b3253c35206f2db5cef096b.jpg);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.zapchast{
+    transition-duration: 1000ms;
+    animation: blink 3s infinite ;
+    margin-top: 15px;
+    column-gap: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px;
+}
+.zapchast:hover{
+    padding: 25px;
+    color: #973333;
+}
+.zapchast-container{
+    color: #000000;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 30px;
+}
+.car-suret-1{
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+}
+.afisha-btn-item{
+color: white;
+background-color: rgb(81, 81, 81) ;
+border: none;
+padding: 15px;
+border-radius: 100px;
+align-items: center;
+column-gap: 5px;
+font-size: 16px;
+}
+.zapchast-item{
+transition-duration: 1000ms;
+animation: blink 3s infinite ;
+margin-top: 15px;
+column-gap: 5px;
+font-size: 16px;
+text-align: center;
+padding: 15px;
+}
+.zapchast-item:hover{
+    padding: 25px;
+}
+footer {
+    height: 100px;
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+header{
+    width: 100%;
+    background-image: url('https://audi.kz/userdata/banners/banners_63/image_b.webp');
+}
+
+.photo{
+    width: 20%;
+    height: 30%;
+    transition-duration: 1000ms;
+    animation: blink 3s infinite ;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    align-items: center;
+}.photo:hover{
+    color: #7d7777;
+}
+.card-container{/* колик карталары   */
+    color: #d6d6d6;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    width: 20%;
+    height: 30%;
+    transition-duration: 1000ms;
+    animation: blink 3s infinite;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
